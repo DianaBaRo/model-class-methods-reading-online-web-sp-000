@@ -19,6 +19,6 @@ class Post < ActiveRecord::Base
   end
 
   def self.by_author(author_id)
-  where(author: author_id)
-end
+    where(author: author_id)
+  end
 end
